@@ -76,6 +76,9 @@ namespace AppCenterBuildUploader
             }
 
             MainAsync(args).GetAwaiter().GetResult();
+
+            Console.WriteLine("Done Uploading");
+
         }
 
         static async Task MainAsync(string[] args)
